@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
+</head>
+<body onload="setTimeout('func1()', 2000)">
+    <section class="cont1">
+        <div class="wrap1">
+            <div class="inner1">
+                <img id="slide" src="image/b1.jpg">  
+            </div>
+            <div class="inner1">
+                <div class="inner2">
+                    <section class="buttons">
+                        <div id="id1" onmouseover="func2(id1, about[0])">Услуги</div>
+                        <div id="id2" onmouseover="func2(id2, about[0])">Отзывы</div>
+                        <div id="id3" onmouseover="func2(id3, about[0])">Клиенты</div>
+                    </section>
+
+                    <section class="text">We are  a company based in india with the motto “Digitalally 
+                        Designed India”. We are  a company based in india with the motto
+                        “Digitalally  Designed India”. We are  a company based in india
+                        with the motto “Digitalally  Designed India”.
+                        We are  a company based in india with the motto “Digitalally
+                        Designed India”. We are  a company based in india with the 
+                        motto “Digitalally Designed India”.  We are  a company based in
+                        India with the motto “Digitalally Designed India”.  We are  a 
+                        company based in india with the motto “Digitalally Designed India”.
+                        <section class="more"></section>
+                    </section>
+                </div> 
+            </div>
+        </div>
+    </section>
+    <section class="cont2">OUR SERVICES</section>
+    <div class="wrap2">
+        <div>
+            <img src="1493843058_Web_Development.png">
+        </div>
+    </div>
+    <div class="wrap3"></section>
+    <div class="wrap4"></section>
+    <script>
+        let i=1, n=6;
+
+        function func1() {
+            if (++i>n) i=1
+            slide.src= `image/b${i}.jpg`
+            setTimeout('func1()', 2000)
+        }
+    </script>
+</body>
+</html>

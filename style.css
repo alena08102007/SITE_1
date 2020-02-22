@@ -1,0 +1,67 @@
+.cont1, .buttons div { border: 1px solid darkslategrey}
+
+body {
+    margin: 0;
+    font-family: Arial, helvetica, sans-serif;
+}
+
+.cont1 {
+    width: 100%;
+    background: #ccc;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.cont2 {
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    background-color: #3a3a3a;
+}
+
+.wrap1 {
+    width: 1000px;
+    height: 425px;
+    background: white;
+    display: flex;
+}
+
+.wrap2 {
+    background-color: #3a3a3a;
+}
+
+.inner1 {
+    width: 500px;
+    height: 425px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner2 {
+    width: 410px;
+    height: 300px;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons div {
+    width: 110px;
+    padding: 3px;
+    border: 1px solid darkslategrey;
+    text-align: center;
+    cursor: pointer;
+}
+
+.text, .more { width: 100% }
+
+.inner2 section {
+    margin-bottom: 30px;
+}
