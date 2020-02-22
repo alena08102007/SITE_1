@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
 </head>
 <body onload="setTimeout('func1()', 2000)">
@@ -39,19 +39,11 @@
     <section class="cont2">OUR SERVICES</section>
     <div class="wrap2">
         <div>
-            <img src="1493843058_Web_Development.png">
+            <img src="image/1493843058_Web_Development.png">
         </div>
     </div>
     <div class="wrap3"></section>
     <div class="wrap4"></section>
-    <script>
-        let i=1, n=6;
-
-        function func1() {
-            if (++i>n) i=1
-            slide.src= `image/b${i}.jpg`
-            setTimeout('func1()', 2000)
-        }
-    </script>
+    <script src="scripts/app.js"></script>
 </body>
 </html>
